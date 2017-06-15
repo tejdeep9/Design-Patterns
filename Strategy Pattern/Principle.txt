@@ -1,0 +1,9 @@
+Definitions:
+	- It defines a family of algorithms, encapsulates each one and makes them interchangabe (change dynamically). Strategy lets the algortithm vary independently fromm clients that use it.
+
+Advantages:
+	- when you consider example of the duck class that is mentioned in your projects, including the behaviors like fly and Quack as member functions of the Duck class will make all the members
+	  like Decoy duck and Rubber duck to include fly functionality which they are not supposed to.
+	- Even if you try to include interfaces for behaviours and let the children of Duck classes to implement these fly and Quack interfaces on the needed basis. you will end up including implementing 
+	  fly and Quack funtionsin all the child classes, as there is no implelementation provided in the interfaces. There is no proper code reuse and you will end up tracking the child classed to modify certain behaviors and this
+	  becomes the maintenance night mare.
